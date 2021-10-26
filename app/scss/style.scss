@@ -1,0 +1,17 @@
+body {
+  background: url(/./img/background_image.png) 0 0 no-repeat;
+  background-size: cover;
+  
+  max-height: 769px;
+}
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "./blocks/header.scss";
+@import "./blocks/wrapper.scss";
+@import "./blocks/header_nav.scss";
+
+
+
+
+@import "media";

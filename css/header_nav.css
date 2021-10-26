@@ -1,0 +1,18 @@
+.header_logo_nav {
+  max-height: 65px;
+}
+
+.header_wrapper {
+  max-height: 65px;
+}
+
+.header_logo-pic {
+  max-width: 80px;
+  max-height: 17px;
+}
+
+.header_link_nav {
+  text-decoration: none;
+  color: #48555B;
+  margin-left: 42px;
+}
