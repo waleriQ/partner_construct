@@ -6,13 +6,13 @@ line-height: 16px;
 letter-spacing: 1.09091px;
   
 }
-.header_logo_nav {
-  max-height: 65px;
+.header_logo-pic img {
+  max-width: 100%;
 }
-
 .header_wapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   
   
 }
@@ -48,4 +48,11 @@ border-bottom: 1px solid #E6E6E6;
 }
 .header_bottom_border {
   margin-bottom: 57px;
+}
+/* --------BURGER--------- */
+.header_burger_menu {
+  background: none;
+  text-decoration: none;
+  border: none;
+  display: none;
 }

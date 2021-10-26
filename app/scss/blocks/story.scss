@@ -1,3 +1,10 @@
+.wrapper_stroy_box {
+  .wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
 .title_story {
 font-style: normal;
 font-weight: bold;
@@ -11,6 +18,7 @@ text-align: center;
   margin-top: 60px;
 display: flex;
 justify-content: space-between;
+
 
   
 .stories_item {
@@ -46,6 +54,7 @@ color: #48555B;
 }
 .rightside_story {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 15px;
 }
 .stories_img {
@@ -63,3 +72,4 @@ font-family: $basefont;
 max-width: 16px;
 padding: 5px;
 }
+
