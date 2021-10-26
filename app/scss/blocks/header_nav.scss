@@ -1,7 +1,6 @@
 @mixin item_nav {
 font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 600;
+font-weight: 800;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 1.09091px;
@@ -34,6 +33,9 @@ max-height: 17px;
   margin-bottom: 0;
   
 }
+.header_link_nav span {
+  color: #00A4E5;
+}
 .header_link_nav {
 text-decoration: none;
 color: #48555B;
@@ -43,4 +45,7 @@ margin-left: 42px;
 .header_bottom_border {
 padding-bottom: 12px;
 border-bottom: 1px solid #E6E6E6;
+}
+.header_bottom_border {
+  margin-bottom: 57px;
 }
