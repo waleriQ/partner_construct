@@ -10,8 +10,10 @@ body {
 @import "./blocks/wrapper.scss";
 @import "./blocks/header_nav.scss";
 @import "./blocks/story.scss";
+@import "./blocks/capabilities.scss";
 
 
 
 
 @import "media";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss"
