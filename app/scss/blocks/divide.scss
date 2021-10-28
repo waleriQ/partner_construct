@@ -1,0 +1,32 @@
+@mixin divide_title {
+  font-size: 16px;
+line-height: 24px;
+font-family: $basefont;
+color: $basecolor;
+font-weight: bold;
+}
+@mixin divide_subtitle {
+  font-size: 13px;
+line-height: 23px;
+  font-family: $basefont;
+  color: $basecolor;
+}
+.divide_title {
+  @include divide_title;
+  max-width: 250px;
+}
+.divide_subtitle {
+  @include divide_subtitle;
+}
+
+
+
+
+/*
+.divide_title {
+  min-height: 50px;
+}
+.first {
+  margin-bottom: 0;
+}
+*/
