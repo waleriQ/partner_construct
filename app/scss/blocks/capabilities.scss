@@ -1,3 +1,18 @@
+@mixin button{
+  background-color: $blue;
+  border: none;
+  width: 150px;
+  height: 40px;
+  max-width: 150px;
+  max-height: 40px;
+  overflow: hidden;
+  color: white;
+  font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+font-family: $basefont;
+cursor: pointer;
+}
 .capabilities_container {
   display: flex;
   justify-content: space-between;
@@ -28,18 +43,7 @@ max-height: 60px;
 flex-wrap: wrap;
 }
 .capabilities_btn {
-  background-color: $blue;
-  border: none;
-  width: 150px;
-  height: 40px;
-  max-width: 150px;
-  max-height: 40px;
-  overflow: hidden;
-  color: white;
-  font-weight: bold;
-font-size: 13px;
-line-height: 18px;
-font-family: $basefont;
+@include button;
 }
 .capabilities_container {
   margin-bottom: 78px;
