@@ -1,3 +1,4 @@
+/* ----------background photo title + btn---------*/
 @mixin divide_title {
 font-size: 30px;
 line-height: 36px;
@@ -14,6 +15,7 @@ max-height: 72px;
   }
 .footer_title{
   text-align: center;
+  margin-bottom: 194px
 }
 .footer_btn {
   @include button;
@@ -22,6 +24,48 @@ max-height: 72px;
   right: 0;
   margin: 0 auto;
 }
-.footer {
-  background: url(/./img/background_footer.png) 0 0 no-repeat;
+.wrapper_background{
+  background: url(/./img/background_footer.png) 50% -130px no-repeat;
+ height: 300px;
+ background-size: cover;
 }
+/* ----------background black footer---------*/
+.wrapper_background_black {
+  height: 100px;
+  background-color: black;
+  padding-top: 50px;
+
+}
+.footer_signup {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.footer_signup h6 {
+  font-size: 22px;
+line-height: 30px;
+color: white;
+font-family: $basefont;
+margin: 0;
+
+}
+.footer_form_signup {
+  width: 250px;
+  height: 40px;
+  max-width: 250px;
+  max-height: 40px;
+  border: none;
+  padding: 0
+}
+.footer_form_btn {
+  @include button;
+  width: 180px;
+  height: 40px;
+  max-width: 180px;
+  max-height: 40px;
+}
+.footer_form_signup::placeholder {
+  padding: 15px;
+}
+

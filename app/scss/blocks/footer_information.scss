@@ -1,0 +1,120 @@
+/* ----------background blue bottom footer---------*/
+
+.wrapper_background_blue {
+  background-color: #141A20;
+  height: 270px;
+  width: 100%;
+}
+
+/*-------------------------------------------- */
+
+.footer_information {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 40px;
+
+}
+/* ----------footer company---------*/
+@mixin footer_link_template{
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 25px;
+  font-family: $basefont;
+  color: white;
+  text-decoration: none;
+}
+
+.footer_company {
+ p {color: white;
+font-size: 11px;
+line-height: 15px;
+font-family: $basefont;
+padding-bottom: 10px;
+}
+}
+.footer_company_logo {
+  img{
+    max-width: 101px;
+    max-height: 23px;
+  }
+  p {
+font-size: 11px;
+line-height: 19px;
+font-family: $basefont;
+  }
+}
+  .links_title {
+    font-size: 11px;
+line-height: 15px;
+font-family: $basefont;
+text-decoration: none;
+color: white;
+font-weight: 300;
+  }
+.footer_company_item {
+  padding-bottom: $f_item_b;
+}
+.footer_company_link {
+@include footer_link_template;
+
+}
+/* ----------footer faq---------*/
+
+.footer_faq {
+  padding-top: $f_blocks;
+}
+.footer_faq_link{
+  @include footer_link_template;
+}
+.footer_faq_item {
+  padding-bottom: $f_item_b;
+}
+
+
+/* ----------footer blog---------*/
+.footer_blog {
+  padding-top: $f_blocks;
+}
+.footer_blog_link {
+  @include footer_link_template;
+}
+.footer_blog_item {
+  padding-bottom: $f_item_b;
+}
+
+/* ----------footer aboutus---------*/
+.footer_aboutus_link {
+font-size: 11px;
+line-height: 16px;
+font-family: $basefont;
+  color: white;
+  text-decoration: none;
+}
+
+/* ----------footer aboutus---------*/
+.footer_aboutus_item {
+  padding-bottom: 15px;
+}
+
+
+/* ----------footer author---------*/
+.wrapper_background_black_author {
+  max-height: 60px;
+  height: 60px;
+  background-color: black;
+}
+.footer_author{
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+p {font-size: 20px;
+  color: white;
+  margin: 0;
+  font-size: 11px;
+line-height: 15px;
+font-weight: 300;
+font-family: $basefont;
+
+}
+}

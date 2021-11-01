@@ -35,6 +35,9 @@ line-height: 27px;
 letter-spacing: 0.1875px;
 margin-bottom: 5px;
 max-width: 390px;
+span {
+  color: #00A4E5;
+}
 }
 .content_story {
 font-size: 13px;
@@ -47,9 +50,7 @@ margin-bottom: 119px; //времянка
 .leftside_story {
   max-width: 400px;
 }
-.leftside_story span{
-  color: #00A4E5;
-}
+
 .rightside_story {
   display: flex;
   flex-wrap: wrap;
