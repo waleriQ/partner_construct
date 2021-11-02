@@ -27,13 +27,14 @@ max-height: 72px;
 .wrapper_background{
   background: url(/./img/background_footer.png) 50% -130px no-repeat;
  height: 300px;
- background-size: cover;
+
 }
 /* ----------background black footer---------*/
 .wrapper_background_black {
-  height: 100px;
+  max-height: 120px;
   background-color: black;
-  padding-top: 50px;
+ padding-top: 40px;
+ padding-bottom: 40px;
 
 }
 .footer_signup {

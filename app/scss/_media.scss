@@ -1,5 +1,5 @@
 
-      /* ---------Adaptive layout header + story--------- */
+      /* ---------Adaptive layout header title and subtitle--------- */
       
       @media (max-width: 1280px) {
         .header_title h1{
@@ -47,13 +47,8 @@
             }
             }
           }
-    
-
-
-
-
 /* ---------burger-menu--------- */  
-   @media (max-width: 703px) {
+   @media screen and (max-width: 703px) {
       .header_burger_menu {
         background: none;
         text-decoration: none;
@@ -71,16 +66,86 @@
       } 
     }
 
+    @media screen and (max-width: 671px) {
+      .footer_burger_menu {
+        display: block;
+        background: none;
+        text-decoration: none;
+        border: none;
+        
+      }
+      .footer_burger_link img  {
+        height: 30px;
+        width: 30px;
+      } 
+      
+    }
+
+ /* ---------Adaptive layout capabilities_button --------- */
+ @media screen and (max-width: 390px) {
+  .capabilities_form {
+  padding-top: 10px;
+  } 
+}
+/* ------
 
 
 
 
-       /*  @media (max-width: 423px) {
-          .capabilities_subtitle{
-          margin-bottom: 20px;
-          } 
-          .capabilities_container {
-            margin-bottom: 38px;
-          }
+
+       /* ---------Adaptive layout footer--------- */
+       @media screen and (max-width: 769px) {
+        .wrap_divide {
+         margin-bottom: 50px;
         }
-        */
+      }
+
+      @media screen and (max-width: 393px) {
+         .footer_company_logo p {
+          max-width: 170px;
+        }
+        
+        .footer_company_item {
+          padding-top: 6px;
+        } 
+      }
+      @media screen and (max-width: 674px) {
+       .footer_information {
+         flex-wrap: wrap-reverse;
+        align-items: flex-end;
+       } 
+       .footer_burger_menu {
+         width: 30px;
+         height: 30px;
+       }
+     }
+      
+      @media screen and (max-width: 666px) {
+        .footer_form {
+         padding-top: 15px;
+        }
+      }
+      @media screen and (max-width: 671px) {
+        .footer_aboutus {
+         display: none;
+        }
+        .footer_blog {
+         display: none;
+        }
+        .footer_faq {
+          display: none;
+        }
+        .footer_information {
+          justify-content: space-around;
+        }
+      }
+
+
+      @media screen and (max-width: 671px) {
+        .footer_company_list {
+          margin: 0;
+        }
+        .footer_company p {
+          margin: 0;
+        }
+      }
