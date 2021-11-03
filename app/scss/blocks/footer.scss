@@ -1,4 +1,5 @@
 /* ----------background photo title + btn---------*/
+/* ----- MIXIN ----- */
 @mixin divide_title {
 font-size: 30px;
 line-height: 36px;
@@ -7,6 +8,7 @@ color: $basecolor;
 font-weight: bold;
 max-height: 72px;
 }
+/* ----- MIXIN ----- */
 
 .footer_title p {
   @include divide_title;

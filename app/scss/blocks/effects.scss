@@ -1,0 +1,49 @@
+/* capabilities button effect */
+.capabilities_btn {
+	animation: capabilities_btn 5s 0s both infinite;
+  animation-delay: 10s;
+  transition-duration: $transition_duration_btn;
+
+}
+.capabilities_btn:hover {
+  background-color: #0b6285;
+  border-radius: 4px;
+  animation-play-state: paused;
+}
+.capabilities_btn:active {
+  background-color:#21566a; 
+}
+
+@keyframes capabilities_btn {
+	0%, 20% {
+		transform: translate3d(0, 0, 0);
+	}
+	10%, 14%, 18%, 2%, 6% {
+		transform: translate3d(-7px, 0, 0);
+	}
+	12%, 16%, 4%, 8% {
+		transform: translate3d(7px, 0, 0);
+	}
+}
+/* footer footer_btn */
+.footer_btn {
+  transition-duration: $transition_duration_btn;
+}
+.footer_btn:hover {
+  background-color: #0b6285;
+  border-radius: 4px;
+}
+.footer_btn:active {
+  background-color:#21566a;
+}
+/* footer_form_btn */
+.footer_form_btn {
+  transition-duration: $transition_duration_btn;
+  }
+  .footer_form_btn:hover {
+    background-color: #0b6285;
+    color: #f2f5ff;
+  }
+  .footer_form_btn:active {
+    background-color:#21566a; 
+  }
